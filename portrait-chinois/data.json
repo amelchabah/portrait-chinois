@@ -1,0 +1,51 @@
+[
+    {
+        "analogie": "un passe-temps",
+        "valeur": "le dessin",
+        "justify": "Artiste, je peux passer des heures à ma passion qui est le <b>dessin</b>. Je dessine depuis que je sais tenir un crayon et m'entraîne chaque jour dans l'espoir d'atteindre le niveau de mes artistes favoris.<br><br>Dès que je trouve l'inspiration, je cherche un outil et un support pour mettre en image les idées qui me traversent l'esprit. Diversifier mon univers visuel à travers études, croquis, portraits, animations... <b>Un loisir qui ne cesse de me passionner.</b>",
+        "img": "img/themes/dessin.jpg",
+        "id": "hobby"
+    },
+    {
+        "analogie": "une ville",
+        "valeur": "Séoul",
+        "justify": "Capitale de la Corée du Sud, Séoul est une immense métropole où les gratte-ciel modernes, les métros high-tech et la culture pop côtoient les temples, les palais et les marchés de rue. L'une des grandes villes d'Asie et une puissance à la pointe de la technologie, Séoul <b>mélange l'avant-garde avec le profondément traditionnel.</b> Là est l'aspect polyvalent d'une ville que j'admire particulièrement.",
+        "img": "img/themes/seoul.jpg",
+        "id": "voyage"
+    },
+    {
+        "analogie": "un super-héros",
+        "valeur": "Spiderman",
+        "justify": "L'un de mes héros préférés du Marvel Cinematic Universe, cet étudiant passionné de sciences et débordant d'imagination est probablement celui auquel je m'identifie le mieux. A l'image de Spiderman, j'aime garder mon sens de l'humour même dans les situations les plus difficiles. Toujours inquiète pour mes proches, je prends très à coeur ce qui leur arrive et sais toujours qu'<i><b>« un grand pouvoir implique de grandes responsabilités ».</b></i>",
+        "img": "img/themes/spidey.png",
+        "id": "heros"
+    },
+    {
+        "analogie": "un animal",
+        "valeur": "le renard",
+        "justify": "Il serait l'animal associé à mon type de personnalité. Le symbolisme et la signification du renard incluent <b>l'intelligence, l'indépendance, l'espièglerie et la malice, la beauté, la protection et la chance.</b> Que représente le renard ? Principalement, son symbolisme enseigne que chaque problème a une solution à portée de main et que l'on peut l'atteindre.",
+        "img": "img/themes/fox.jpg",
+        "id": "nature"
+    },
+    {
+        "analogie": "un sport",
+        "valeur": "le patinage artistique",
+        "justify": "Un sport ou un art ? Plus que cela ! Le patinage artistique est ma discipline sportive préférée, que ce soit sur la piste de glace ou à la télévision. Il s'agit d'un sport non seulement <b>extrêmement athlétique mais aussi incroyablement artistique.</b> La beauté de virevolter, de planer et de sauter est un déguisement pour tout l'entraînement nécessaire pour atteindre cette grâce sans effort.<br><br>Plus qu'un sport, une sortie à la patinoire avec sa famille ou ses amis est un excellent moyen de sortir et de <b>faire de l'exercice en s'amusant!</b>",
+        "img": "img/themes/patin.jpg",
+        "id": "sport"
+    },
+    {
+        "analogie": "une boisson",
+        "valeur": "un macchiato",
+        "justify": "Dans beaucoup de pays, le café <i>(de l'arabe قهوة : qahwa, \"boisson stimulante\")</i> reste encore une boisson exotique ou hors de portée de la majorité des habitants. Mais sa consommation est en hausse dans le monde entier, et notamment dans les pays en développement.<br><br><b>Travailleuse et débordante d'énergie</b>, je pense que le café est la boisson qui me représenterait le mieux.",
+        "img": "img/themes/cafe.jpg",
+        "id": "cafe"
+    },
+    {
+        "analogie": "un réalisateur",
+        "valeur": "Hayao Miyazaki",
+        "justify": "Fameux réalisateur de films d’animation japonais, Hayao Miyazaki est bien de ceux dont la réputation a largement dépassé les frontières de l’archipel. <b>Toutes aussi accessibles aux enfants qu’aux adultes, ses oeuvres avec lesquelles j'ai grandi ne cessent de me fasciner.</b><br><br>En Occident on le compare souvent à Walt Disney : toutefois, Miyazaki reste modeste et explique le succès de son entreprise, le <b>Studio Ghibli</b>, par la chance qu’il a eue de pouvoir exploiter pleinement sa créativité.",
+        "img": "img/themes/chateau.jpg",
+        "id": "cinema"
+    }
+]
