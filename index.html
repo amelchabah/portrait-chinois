@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="theme" rel="stylesheet" type="text/css" href="style-dark.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>portrait chinois d'Amel</title>
+
+</head>
+
+
+<body>
+    <!--boutons-->
+    <img id="css-mode" onclick="toggleTheme()" src="img/icones/dark mode.svg" alt="">
+    <button class="scrollToTopBtn"><img src="img/icones/lightarrow.svg" alt=""></button>
+    <!--barre de navigation-->
+    <div id="navbar" class="bar hide">
+        <div class="nav">
+            <ul>
+                <li><a href="#hobby" class="nav-btn"></a></li>
+                <li><a href="#voyage" class="nav-btn"></a></li>
+                <li><a href="#heros" class="nav-btn"></a></li>
+                <li><a href="#nature" class="nav-btn"></a></li>
+                <li><a href="#sport" class="nav-btn"></a></li>
+                <li><a href="#cafe" class="nav-btn"></a></li>
+                <li><a href="#cinema" class="nav-btn"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--accueil-->
+    <header data-aos="fade-in" data-aos-duration="1000">
+        <section>
+
+            <div id="moon"><img src="img/background/moon.png" alt=""></div>
+
+            <h4 class="def">jeu littéraire de type<br>questionnaire de Proust où<br> il s'agit de déceler certains
+                <br>aspects de la personnalité <br> d'un individu
+            </h4>
+            <h3 class="auteur">par Amel · Chabah</h3>
+            <div id="videoMessage" data-aos="fade-right" data-aos-duration="1000">
+                <span class="title">Portrait · Chinois</span>
+                <span class="start"><a href="#about">let's go</a></span>
+            </div>
+            <h3 class="butmmi">BUT MMI · 2021</h3>
+        </section>
+    </header>
+
+
+    <!--profil-->
+    <section id="about">
+        <div class="about" data-aos="fade-in" data-aos-duration="1000">
+            <div class="about-wrapper">
+                <img src="img/themes/profil.jpg" id="profile-img" alt="">
+
+                <div class="desc">
+                    <span class="propos">Amel · Chabah</span><br><br>
+                    <div class="wrapper-text">
+                        <span>
+                            Bonjour ! Je m’appelle Amel Chabah et j’ai 17 ans. Je suis actuellement étudiant en première
+                            année de <b>BUT Métiers du Multimédia et de l’Internet</b> où j’apprends à réaliser des
+                            projets
+                            multimédias sous tous leurs aspects, qu’il s’agisse de design, de développement ou
+                            d’audiovisuel.
+                            <br><br>
+                            Motivée et passionnée par le domaine artistique depuis toute petite, je sais mettre ma
+                            créativité à profit et aime élargir mon univers visuel que ce soit dans la musique, le
+                            dessin,
+                            l’infographie, l’audiovisuel ou le design.
+                            <br><br>
+                            Je vous invite à découvrir divers aspects de ma personnalité à travers ce portrait chinois,
+                            réalisé dans le cadre d'un projet étudiant.
+                            <br><br></span>
+                        <a href="#listeanalogies" class="par-ici"><span> par · ici</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--portrait chinois-->
+    <section id="listeanalogies"></section>
+
+    <!--formulaire-->
+    <section class="form">
+
+        <h2>
+            Et si j'étais vous ?
+        </h2>
+        <span class="sub">
+            À vous de jouer! Ajoutez une idée à ce portrait :
+        </span>
+
+        <form method="get">
+            <label for="analogie">
+                Si j'étais...
+            </label>
+            <br>
+            <input type="text" placeholder="un artiste" id="analogie" name="analogie" required>
+            <br><br>
+            <label for="valeur">
+                Je serais...
+            </label>
+            <br>
+            <input type="text" placeholder="Mozart" id="valeur" name="valeur" required>
+            <br><br>
+            <label for="justify">
+                Pourquoi ?
+            </label>
+            <br>
+            <textarea placeholder="500 caractères max." id="justify" name="justify" maxlength="500"></textarea>
+            <br><br>
+            <label>
+                Arrière-plan
+            </label>
+            <br>
+
+            <input type="url" id="file" name="file" placeholder="URL d'une image" required>
+
+            <!--<input type="file" name="file" id="file" class="inputfile" accept="image/*">
+            <label for="file">Sélectionner un fichier</label>-->
+
+            <br><br>
+
+
+            <label for="mail">
+                Votre mail
+            </label>
+            <br>
+            <input type="email" placeholder="Votre mail ici" id="mail" name="mail" required>
+            <br><br><br>
+            <div id="buttonsubmit" type="submit" name="submit">
+                <div class="btn animation">
+                    <span>ENVOYER</span>
+                </div>
+            </div>
+
+            <div id="message"></div>
+
+
+        </form>
+    </section>
+
+    <!--analogies générées par le formulaire-->
+    <div id="nouvelle-analogie"></div>
+
+    <!--mentions légales-->
+    <footer>
+        <section>
+            <div class="volet-invisible" href="#div_footer-container">
+
+                <h2>MENTIONS LÉGALES</h2>
+                <span>Un portrait chinois écrit et développé par Amel Chabah</span>
+                <div class="footer-container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Images</h4>
+                            <ul>
+                                <li><a href="#popup1" id="credits">Analogies</a></li>
+                                <div id="popup1" class="overlay">
+                                    <div class="popup">
+                                        <a class="close" href="#credits">&times;</a>
+                                        <h4>Analogies</h4>
+                                        <p>Toutes les images utilisées sur cette page sont personnelles ou libres de
+                                            droit pour usage personnel, et ne feront jamais l'objet d'une
+                                            commercialisation.
+                                        </p>
+                                        <ul>
+                                            <li><a href="https://commons.wikimedia.org/wiki/File:Ezo_red_fox,_Japan;_February_2021_(05).jpg"
+                                                    target="_blank">Ezo red fox. - Miki Yoshihito</a>
+                                            </li>
+                                            <li><a href="https://pixabay.com/images/id-4378357/"
+                                                    target="_blank">Spiderman - Dušan Naumovski</a>
+                                            </li>
+                                            <li><a href="https://pixabay.com/fr/photos/paysage-urbain-s%C3%A9oul-cor%C3%A9e-namsan-4165367/"
+                                                    target="_blank">Séoul - Ethan Brooke</a>
+                                            <li><a href="https://www.flickr.com/photos/65817306@N00/20747892754/in/photostream/"
+                                                    target="_blank">Le château ambulant - Studio Ghibli</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <li><a href="#popup2" id="credits">Arrière-plans</a></li>
+                                <div id="popup2" class="overlay">
+                                    <div class="popup">
+                                        <a class="close" href="#credits">&times;</a>
+                                        <h4>Arrière-plans</h4>
+                                        <p>Toutes les images utilisées sur cette page sont libres de droit pour
+                                            usage personnel, et ne feront jamais l'objet d'une commercialisation.
+                                        </p>
+                                        <ul>
+                                            <li><a href="https://www.freepik.com/free-photo/white-concrete-wall_4410360.htm#query=background&position=18&from_view=keyword"
+                                                    target="_blank">Light mode - rawpixel.com</a></li>
+                                            <li><a href="https://unsplash.com/photos/CEtIM994vaI" target="_blank">Dark
+                                                    mode - Eastman Childs</a></li>
+                                            <li><a href="https://fr.wikipedia.org/wiki/Fichier:Full_Moon_Luc_Viatour.jpg
+                                                " target="_blank">Lune - Luc Viatour</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Polices</h4>
+                            <ul>
+                                <li><a href="https://fonts.google.com/specimen/Poppins" target="_blank">Poppins</a>
+                                </li>
+                                <li><a href="http://boem.fr/font.html" target="_blank">Fantome</a></li>
+                                <li><a href="https://www.dafontfree.io/raylig-font/" target="_blank">Raylig</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Langages</h4>
+                            <ul>
+                                <li><a>HTML/CSS</a></li>
+                                <li><a>JS/JSON</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="#popup3" id="credits">
+                    <h6>Législation relative aux données à caractère personnel</h6>
+                </a>
+                <div id="popup3" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#credits">&times;</a>
+                        <p><b>Législation relative aux données à caractère personnel</b><br><br>Hébergeur : Université
+                            Gustave Eiffel - 2 rue Albert
+                            Einstein, 77420 Champs-sur-Marne, France - 01 60 95 75 00 - webmaster@univ-eiffel.fr
+                            <br>
+                            <br>Conformément à l'article 15 du Règlement général sur la protection des données (RGPD) du
+                            27 avril 2016,
+                            vous disposez d'un droit d'accès aux informations vous concernant. Si vous trouvez que ces
+                            informations sont incorrectes, l'article 16 du
+                            RGPD vous permet de les modifier ou de les supprimer. Dans ce cas, merci de contacter le
+                            directeur de la communication : com@univ-eiffel.fr.
+                            <br><br>Vos données ne seront jamais transmises à des tiers et ne feront jamais l'objet
+                            d'une
+                            commercialisation. Elles seront envoyées à une base de données ; pour toute demande de
+                            suppression ou toute question relative à la
+                            collecte ou au traitement de vos données personnelles par
+                            le site web, vous pouvez contacter le respnsable de la protection des données du projet :
+                            philippe.gambette@univ-eiffel.fr. Elles seront supprimées durant l’été 2022.
+                        </p>
+                    </div>
+        </section>
+    </footer>
+
+
+    <script src="data.json"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        //light/dark mode
+        function toggleTheme() {
+            // obtenir un tableau des elm <link> et selectionner elements
+            var theme = document.getElementsByTagName('link')[0];
+            var logo = document.getElementById('css-mode');
+
+            // changer attribut href pour changer css
+            if (theme.getAttribute('href') == 'style-light.css') {
+                theme.setAttribute('href', 'style-dark.css');
+                logo.setAttribute('src', 'img/icones/dark mode.svg');
+            } else {
+                theme.setAttribute('href', 'style-light.css');
+                logo.setAttribute('src', 'img/icones/light mode.svg');
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
